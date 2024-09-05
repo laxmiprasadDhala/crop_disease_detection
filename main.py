@@ -21,7 +21,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("C:/Users/gagan/Downloads/themodel/themodel.h5")
+MODEL = tf.keras.models.load_model("themodel.h5")
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 
